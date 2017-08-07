@@ -12,6 +12,8 @@ You have 3 difficulties :
 
 You can restart by clicking on the emoticon, and change the difficulty by clicking on the desired mode.
 
+You can play on the [demo]("https://benliev.github.io/Minesweeper/").
+
 ## Installation
 
 For install this games :
