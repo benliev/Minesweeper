@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Minesweeper</title>
+    <link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+    <link rel="stylesheet" href="css/minesweeper.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Minesweeper</h1>
+        <div id="bob" class="smile" title="Restart the game"></div>
+        <div id="minesweeper">
+            <div id="scoring">
+                <div id="mines-wrapper">
+                    Mines left : <span class="black-box" id="mines-left">38</span>
+                </div>
+                <div id="times-wrapper">
+                    Time : <span class="black-box" id="times-elapsed">0</span>
+                </div>
+                <div class="clear-both"></div>
+            </div>
+            <div id="table-minesweeper"></div>
+            <div id="difficulty">
+                <div id="difficulty-level">
+                    <button id="beginner" type="button" class="btn-difficulty">Beginner</button>
+                    <button id="intermediate" type="button" class="btn-difficulty">Intermediate</button>
+                    <button id="expert" type="button" class="btn-difficulty pressed">Expert</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="lib/jQuery/dist/jquery.min.js"></script>
+    <script src="js/Util.js"></script>
+    <script src="js/MineCase.js"></script>
+    <script src="js/Minesweeper.js"></script>
+    <script src="js/Main.js"></script>
+</body>
+</html>

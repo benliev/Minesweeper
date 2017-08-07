@@ -1,0 +1,165 @@
+h1{
+    text-align: center;
+    font-family: Slackey;
+    font-size: 50px;
+    margin: 0;
+}
+
+.dead, .smile, .winner{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    cursor: hand;
+}
+
+.btn-difficulty{
+    width: 107px;
+    background: #bdbdbd;
+    color: #444;
+    border-bottom: solid 2px #707070;
+    border-right: solid 2px #707070;
+    border-top: solid 2px #fff;
+    border-left: solid 2px #fff;
+    display: inline-block;
+    padding: 3px;
+    outline: 0;
+    font-size: 14px;
+}
+
+.btn-difficulty.pressed{
+    border-style: none;
+    background: #bfbfbf;
+    font-weight: 700;
+    padding: 5px 3px;
+}
+
+.dead{
+    background: url("../img/dead.svg") no-repeat;
+}
+
+.smile{
+    background: url("../img/smile.svg") no-repeat;
+}
+
+.winner{
+    background: url("../img/winner.svg") no-repeat;
+}
+
+.container{
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+#difficulty{
+    text-align: center;
+}
+
+.table-minesweeper, .black-box, #scoring, #difficulty-level{
+    border-bottom: solid 2px #fff;
+    border-right: solid 2px #fff;
+    border-top: solid 2px #7b7b7b;
+    border-left: solid 2px #7b7b7b;
+}
+
+
+#difficulty-level{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.case{
+    width: 20px;
+    height: 20px;
+    background: #bdbdbd;
+    text-align: center;
+    border-bottom: solid 2px #7b7b7b;
+    border-right: solid 2px #7b7b7b;
+    border-top: solid 2px #fff;
+    border-left: solid 2px #fff;
+}
+
+#minesweeper{
+    display: inline-block;
+    margin-top: 10px;
+    border-spacing: 0;
+    padding: 7px;
+    background: #bdbdbd;
+    border-bottom: solid 2px #707070;
+    border-right: solid 2px #707070;
+    border-top: solid 2px #bdbdbd;
+    border-left: solid 2px #bdbdbd;
+    border-radius: 3px;
+}
+
+#scoring{
+    margin-bottom: 10px;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+.case.mine{
+    background: url("../img/mine.svg") no-repeat;
+    background-size: 20px;
+    background-color: #bdbdbd;
+}
+
+.case.open, .case.open-1, .case.open-2, .case.open-3{
+    background-color: #bdbdbd;
+    border-left: solid 1px #7b7b7b;
+    border-top: solid 1px #7b7b7b;
+    border-bottom: none;
+    border-right: none;
+    font-weight: bold;
+}
+
+.case.flagged{
+    background: url("../img/flag.svg") no-repeat;
+    background-size: 20px;
+    background-color: #bdbdbd;
+}
+
+.case.open-1{
+    color: #0000ff;
+}
+
+.case.open-2{
+    color: #008000;
+}
+
+.case.open-3{
+    color: #ff0000;
+}
+
+.table-minesweeper {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: auto;
+}
+
+#mines-wrapper, #times-wrapper{
+    margin: 5px;
+    display: inline-block;
+}
+
+#mines-wrapper{
+    float: left;
+}
+
+#times-wrapper{
+    float: right;
+}
+
+.black-box{
+    font-family: "Courier New",monospace;
+    font-weight: 700;
+    background: #333;
+    color: #25fe15;
+    padding: 2px;
+}
+
+.clear-both{
+    clear: both;
+}
